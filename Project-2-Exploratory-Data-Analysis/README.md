@@ -1,24 +1,24 @@
 # 📈 Project 2: Exploratory Data Analysis (EDA)
 
+> **Data Analytics Internship Project – DecodeLabs**
+
 ## 📌 Overview
 
-This project was completed as part of my **Data Analytics Internship at DecodeLabs**. The objective was to explore an e-commerce dataset using Microsoft Excel to understand its structure, identify trends, calculate descriptive statistics, and generate meaningful business insights.
-
-Exploratory Data Analysis (EDA) helps analysts understand data before creating dashboards or performing advanced analytics.
+This project focuses on **Exploratory Data Analysis (EDA)** using Microsoft Excel on an e-commerce dataset. The objective was to explore the dataset, understand its characteristics, calculate descriptive statistics, identify trends, detect potential outliers, and derive meaningful business insights before further analysis or visualization.
 
 ---
 
 ## 🎯 Objectives
 
-- Explore the dataset
-- Calculate descriptive statistics
+- Understand the dataset structure
+- Perform descriptive statistical analysis
 - Identify trends and patterns
-- Detect outliers
-- Summarize key observations
+- Detect potential outliers
+- Generate meaningful business insights
 
 ---
 
-## 🛠️ Tools Used
+## 🛠️ Tools & Techniques
 
 - Microsoft Excel
 - Pivot Tables
@@ -27,10 +27,12 @@ Exploratory Data Analysis (EDA) helps analysts understand data before creating d
 
 ---
 
-## 📂 Dataset Summary
+## 📂 Dataset Information
 
-- **Rows:** 1,200
-- **Columns:** 14
+| Attribute | Value |
+|-----------|------:|
+| Total Rows | 1,200 |
+| Total Columns | 14 |
 
 ### Features
 
@@ -51,55 +53,108 @@ Exploratory Data Analysis (EDA) helps analysts understand data before creating d
 
 ---
 
-## 🔍 Analysis Performed
+# 🔍 Exploratory Data Analysis Process
 
-### ✅ Descriptive Statistics
-Calculated:
-- Mean
-- Median
-- Count
+## 1️⃣ Dataset Inspection
 
-For:
+- Reviewed the dataset structure
+- Identified numerical and categorical variables
+- Verified data types before analysis
+
+---
+
+## 2️⃣ Descriptive Statistics
+
+Calculated the following statistical measures for:
+
 - Quantity
 - UnitPrice
 - ItemsInCart
 - TotalPrice
 
-### ✅ Trend Analysis
-Used Pivot Tables to identify:
+Statistics calculated:
+
+- Mean
+- Median
+- Count
+
+---
+
+## 3️⃣ Trend Analysis
+
+Used **Pivot Tables** to identify:
 
 - Most frequently ordered product
-- Most commonly used payment method
+- Most preferred payment method
 - Most common order status
-- Most common referral source
-
-### ✅ Outlier Detection
-- Sorted numerical columns (Quantity, UnitPrice, ItemsInCart, and TotalPrice) from largest to smallest to identify unusually high or low values.
-- Reviewed the extreme values manually.
-- No significant outliers were identified during the analysis.
-
-### ✅ Business Insights
-- Explored ordering patterns
-- Analyzed customer preferences
-- Identified frequently occurring categories
-- Summarized key observations from the dataset
+- Most effective referral source
 
 ---
 
-## 📈 Skills Demonstrated
+## 4️⃣ Outlier Detection
 
-- Data Exploration
-- Sorting & Filtering
+Reviewed numerical columns by sorting values from highest to lowest and lowest to highest to identify unusually large or small values.
+
+No significant outliers were observed during the analysis.
+
+---
+
+# 📊 Key Observations
+
+- The most frequently ordered product was **Printer**.
+- **Online** was the most preferred payment method among customers.
+- Most orders were successfully **Cancelled**.
+- **Instagram** generated the highest number of customer referrals.
+- No significant outliers were found in the numerical columns.
+
+---
+
+# 📈 Skills Demonstrated
+
 - Exploratory Data Analysis (EDA)
-- Pivot Tables
 - Descriptive Statistics
+- Pivot Table Analysis
+- Trend Analysis
 - Data Interpretation
+- Microsoft Excel
 
 ---
 
-## 🚀 Outcome
+# 🚀 Project Outcome
 
-Successfully performed exploratory data analysis by calculating descriptive statistics, identifying trends, checking for outliers, and generating meaningful insights from the dataset.
+Successfully explored and analyzed the dataset by calculating descriptive statistics, identifying trends, reviewing outliers, and summarizing key findings. The analysis provided valuable insights into customer purchasing behavior and prepared the dataset for future visualization and reporting.
+
+---
+
+## 📷 Project Screenshots
+
+### Descriptive Statistics
+
+![Descriptive Statistics](images/descriptive-statistics.png)
+
+---
+
+### Product Trend Analysis
+
+![Product Pivot](images/product-pivot-table.png)
+
+---
+
+### Payment Method Analysis
+
+![Payment Method](images/payment-method-pivot.png)
+
+---
+
+### Order Status Analysis
+
+![Order Status](images/order-status-pivot.png)
+
+---
+
+### Referral Source Analysis
+
+![Referral Source](images/referral-source-pivot.png)
 
 ---
 
@@ -108,4 +163,3 @@ Successfully performed exploratory data analysis by calculating descriptive stat
 **Navya Agarwal**
 
 Data Analytics Intern | DecodeLabs
-
